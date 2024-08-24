@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Dart"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
